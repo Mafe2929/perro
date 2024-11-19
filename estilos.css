@@ -1,0 +1,110 @@
+*{padding:0px ;
+	margin: 0px;
+
+}
+
+html{
+	background-image: url(huellitas.jpg);
+	background-attachment: fixed;
+}
+
+body{width: 1000px;
+height: 1000px;
+background-color: pink;
+margin: auto;
+}
+
+header{
+width: 1000px;
+height: 200px;
+background-color: pink;
+
+}
+
+nav{
+width: 1000px;
+height: 50px;
+background-color: white;
+}
+
+main{ width: 1000px;
+height: 700px; }
+
+article{ height: 700px;
+width: 800px;
+background-color:white; 
+float: left;}
+
+aside{ height: 700px; 
+width: 200px;
+background-color:#f6e4d3; 
+
+float: left;}
+
+footer{height: 50px;
+width: 1000px;
+background-image:url(footer.png);
+
+float:left;}
+
+
+nav a{text-decoration: none;
+	color: inherit;
+	font-size: 18px;
+	font-family:sans-serif;
+
+}
+
+nav li {display: inline-block;
+	padding: 13px 40px;
+	box-shadow: 0 0 20px #000;
+	color: black;
+}
+
+nav li:hover{
+
+	background-color: #fff;
+	color: royalblue;
+	box-shadow: 0 0 20px #black;
+	transition: 0.5s;
+}
+nav ul{
+	text-align: center;
+}
+/*Redes Sociales*/
+
+.RedesSociales{
+display: inline-block;
+width: 30px;
+height:30px ;
+margin: top 5px;
+margin: left 5px;
+border: 50%;
+cursor: pointer;
+transition: all 0.5s;
+}
+.RedesSociales:hover:nth-child(1){
+	background-color: #b5936f;
+	box-shadow:0 0 20px #fff;
+}
+.RedesSociales:hover:nth-child(2){
+	background-color: #b5936f;
+	box-shadow:0 0 20px #fff ;
+}
+.RedesSociales:hover:nth-child(3){
+	background-color: #b5936f;
+	box-shadow:0 0 20px #fff ;
+}
+.RedesSociales:hover:nth-child(4){
+	background-color: #b5936f;
+	box-shadow:0 0 20px #fff ;
+}
+.RedesSociales:hover:nth-child(5){
+	background-color: #b5936f;
+	box-shadow:0 0 20px #fff ;
+}
+.RedesSociales
+
+}
+
+}
